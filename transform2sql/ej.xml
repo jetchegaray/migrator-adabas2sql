@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navobj version="5.3.0.10">
+  <table bookmarkSize="4" datasource="pred13" name="SA_U_AFILIADO">
+    <dbCommand>59</dbCommand>
+    <fields>
+      <field datatype="string" name="SPCOB_PERSONA_UNICO_AFIL" nullSuppressed="true" size="8">
+        <dbCommand>AA</dbCommand>
+      </field>
+      <field datatype="string" name="SPCOB_AFILIADO_AFIL" nullSuppressed="true" size="6">
+        <dbCommand>EP</dbCommand>
+      </field>
+      <field datatype="unsigned_decimal" name="SAIMB_INGRESO_FAMIL_ANU" nullSuppressed="true" size="17">
+        <dbCommand>AB</dbCommand>
+      </field>
+      <field datatype="unsigned_decimal" name="SANUB_HABT_VIVIENDA" nullSuppressed="true" size="3">
+        <dbCommand>AC</dbCommand>
+      </field>
+    </fields>
+	<keys>
+      <key bestUnique="true" hashed="true" name="ISN" size="4" unique="true">
+        <segments>
+          <segment name="ISN" />
+        </segments>
+      </key>
+      <key name="SPCOB_PERSONA_UNICO_AFIL" nullSuppressed="true" size="8" unique="true">
+        <dbCommand>AA</dbCommand>
+        <segments>
+          <segment name="SPCOB_PERSONA_UNICO_AFIL" nullSuppressed="true" />
+        </segments>
+      </key>
+      <key name="SPCOB_AFILIADO_AFIL" nullSuppressed="true" size="6" unique="true">
+        <dbCommand>EP</dbCommand>
+        <segments>
+          <segment name="SPCOB_AFILIADO_AFIL" nullSuppressed="true" />
+        </segments>
+      </key>
+    </keys>
+  </table>
+</navobj>
