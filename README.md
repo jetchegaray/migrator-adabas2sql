@@ -1,8 +1,8 @@
-# transform_adabas_to_sql
+# transform adabas to sql
 
-This is an old window swing application on java. 
+This is an old window-swing application on java for migration porposes.
 
-the Main Idea is convert any adbas SQL to SQL
+the Main Idea is convert any adbas SQL scripts to SQL standar, for those who has that old database in their system
 
 things to know :: 
 
